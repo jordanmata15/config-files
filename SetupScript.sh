@@ -10,8 +10,3 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 git clone https://github.com/jordanmata15/vim
 cp -r vim/* ./
 rm -rf vim
-
-## Make sure the .vimrc file is in .vim folder
-git clone https://github.com/jordanmata15/config-files
-cp -r ~/.vim/config-files/.vimrc ~/
-rm -rf config-files
