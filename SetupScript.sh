@@ -4,6 +4,7 @@ cd ~/.vim
 
 ## Add pathogen to the runtime environment
 mkdir -p ~/.vim/autoload ~/.vim/bundle
+apt install curl
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 ## Add dracula theme to the .vim folder
