@@ -1,3 +1,10 @@
+#!/bin/bash
+
+USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
+
+
+cp $USER_HOME/config-files/.vimrc $USER_HOME
+
 ## Create the .vim folder at the root
 mkdir ~/.vim
 cd ~/.vim
