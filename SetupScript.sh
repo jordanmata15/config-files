@@ -2,14 +2,14 @@
 
 USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
 
-
+## copy over the vimrc to the user's home directory
 cp $USER_HOME/config-files/.vimrc $USER_HOME
 
 ## Create the .vim folder at the root
 mkdir ~/.vim
 cd ~/.vim
 
-## Add pathogen to the runtime environment
+## Download pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 apt install curl
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
