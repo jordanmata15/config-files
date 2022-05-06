@@ -23,6 +23,14 @@ echo "##################################"
 echo
 sudo apt-get install vim
 
+# cmake
+echo
+echo "##################################"
+echo "		    CMAKE		"
+echo "##################################"
+echo
+sudo apt-get install cmake
+
 # vscode
 echo
 echo "##################################"
