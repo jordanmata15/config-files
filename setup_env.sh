@@ -54,6 +54,14 @@ echo "##################################"
 echo
 sudo apt-get install mpich mpich-doc
 
+# X11
+echo
+echo "##################################"
+echo "		 X11		"
+echo "##################################"
+echo
+sudo apt install libx11-dev
+
 # cleanup/update
 echo
 echo "##################################"
@@ -63,7 +71,6 @@ echo
 sudo apt-get autoremove
 sudo apt-get update
 sudo apt-get upgrade
-
 
 # git environment variables
 echo
