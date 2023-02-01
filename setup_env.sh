@@ -40,6 +40,14 @@ echo "##################################"
 echo
 sudo apt-get install cmake -y
 
+# cmake
+echo
+echo "##################################"
+echo "		    CURL		                  "
+echo "##################################"
+echo
+sudo apt-get install curl -y
+
 # vscode
 echo
 echo "##################################"
