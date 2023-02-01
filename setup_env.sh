@@ -64,12 +64,3 @@ echo
 sudo apt-get autoremove -y
 sudo apt-get update -y
 sudo apt-get upgrade -y
-
-# git environment variables
-echo
-echo "##################################"
-echo "		 GIT ENV VARS		"
-echo "##################################"
-echo
-git config --global user.email "jordanmata15@gmail.com"
-git config --global user.name "Jordan Mata"
