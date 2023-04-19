@@ -1,6 +1,5 @@
 ### ALIASES ####
 alias clr='clear && clear'
-alias command='history | grep'
 alias diskspace="du -S | sort -n -r | less" # Find out what is taking so much space on your drives
 alias gs='git status'
 alias ga='git add'
