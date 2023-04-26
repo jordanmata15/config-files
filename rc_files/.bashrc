@@ -12,8 +12,8 @@ alias home='cd ~'
 alias ls="ls --color=auto"
 alias status='echo $?'
 alias trash='mv --force -t ~/.local/share/Trash'
-alias update='sudo apt-get install update'
-alias upgrade='sudo apt-get install upgrade'
+alias update='sudo apt-get update'
+alias upgrade='sudo apt-get upgrade'
 
 ### SETTINGS ###
 
