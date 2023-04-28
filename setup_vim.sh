@@ -15,6 +15,6 @@ mkdir -p ${USER_HOME}/.vim/autoload ~/.vim/bundle
 curl -LSso ${USER_HOME}/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 ## Add dracula theme to the .vim folder so the theme can be loaded when using vim
-git clone https://github.com/jordanmata15/vim
+git clone https://github.com/dracula/vim.git
 cp -r vim/* ${USER_HOME}/.vim
 rm -rf vim
