@@ -12,5 +12,5 @@ echo -e "\n\n"                  >> "${USER_HOME}/.bashrc"
 cat "${RC_FILE_DIR}/.bashrc"    >> "${USER_HOME}/.bashrc"
 
 # Set up my github account info and editor preference (I hate nano)
-echo -e "[user]\n\tname = Jordan Mata\n\temail = jordanmata15@gmail.com" >> ~/.gitconfig
-echo -e "[core]\n\teditor = vim" >> ~/.gitconfig
+echo -e "[user]\n\tname = Jordan Mata\n\temail = jordanmata15@gmail.com" >> ${USER_HOME}/.gitconfig
+echo -e "[core]\n\teditor = vim" >> ${USER_HOME}/.gitconfig
