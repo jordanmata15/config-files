@@ -65,3 +65,10 @@ extract () {
        echo "'$1' is not a valid file!"
    fi
 }
+
+# I don't like the way apport handles core dumps for me
+# Skip apport as the core dump handler and generate the dump
+# in the directory the program was run in
+enable_core_dump() {
+   sudo sysctl -w kernel.core_pattern=core.%u.%p.%t
+}
