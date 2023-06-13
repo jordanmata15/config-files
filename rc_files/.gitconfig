@@ -1,0 +1,13 @@
+[user]
+	name = Jordan Mata
+	email = jordanmata15@gmail.com
+[core]
+	editor = vim
+[color]
+	ui = auto
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+[alias]
+	unstage = reset HEAD --
