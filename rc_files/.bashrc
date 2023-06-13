@@ -1,16 +1,7 @@
 ### ALIASES ####
-alias clr='clear && clear'
+alias clr='clear && clear' # Clear the screen and the scrollback buffer
 alias diskspace="du -S | sort -n -r | less" # Find out what is taking so much space on your drives
-alias gs='git status'
-alias ga='git add'
-alias gc='git commit'
-alias gd='git diff'
-alias gb='git branch'
-alias gl='git log'
-alias gr='git restore --staged'
-alias home='cd ~'
 alias ls="ls --color=auto"
-alias status='echo $?'
 alias trash='mv --force -t ~/.local/share/Trash'
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
